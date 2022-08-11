@@ -1,9 +1,16 @@
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
+  align-items: center;
+  justify-content: space-between;
+
 }
 
 .trybewarts-login {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+}
+
+.trybewarts-header-title {
+  display: flex;
 }
